@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[title verified]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-05-06T15:29:41 GMT-04:00" name="Suite" finished-at="2025-05-06T15:32:26 GMT-04:00" duration-ms="164981">
+    <groups>
+    </groups>
+    <test started-at="2025-05-06T15:29:41 GMT-04:00" name="Test" finished-at="2025-05-06T15:32:26 GMT-04:00" duration-ms="164981">
+      <class name="testpackage.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testpackage.LoginTest@31190526]" started-at="2025-05-06T15:29:41 GMT-04:00" name="setup" finished-at="2025-05-06T15:30:00 GMT-04:00" duration-ms="18686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="datadriven()[pri:0, instance:testpackage.LoginTest@31190526]" started-at="2025-05-06T15:30:00 GMT-04:00" name="datadriven" finished-at="2025-05-06T15:31:01 GMT-04:00" duration-ms="61245" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[title verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- datadriven -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testpackage.LoginTest@31190526]" started-at="2025-05-06T15:32:21 GMT-04:00" name="teardown" finished-at="2025-05-06T15:32:26 GMT-04:00" duration-ms="5215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testpackage.LoginTest -->
+      <class name="testpackage.CheckoutDetailsTest">
+        <test-method signature="datas()[pri:0, instance:testpackage.CheckoutDetailsTest@3eb738bb]" started-at="2025-05-06T15:32:00 GMT-04:00" name="datas" finished-at="2025-05-06T15:32:21 GMT-04:00" duration-ms="21271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datas -->
+      </class> <!-- testpackage.CheckoutDetailsTest -->
+      <class name="testpackage.SearchTest">
+        <test-method signature="function()[pri:0, instance:testpackage.SearchTest@f5958c9]" started-at="2025-05-06T15:31:01 GMT-04:00" name="function" finished-at="2025-05-06T15:31:20 GMT-04:00" duration-ms="18240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- function -->
+      </class> <!-- testpackage.SearchTest -->
+      <class name="testpackage.SelectionbedTest">
+        <test-method signature="set()[pri:0, instance:testpackage.SelectionbedTest@233795b6]" started-at="2025-05-06T15:31:20 GMT-04:00" name="set" finished-at="2025-05-06T15:32:00 GMT-04:00" duration-ms="40052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+      </class> <!-- testpackage.SelectionbedTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
