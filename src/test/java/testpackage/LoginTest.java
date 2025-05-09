@@ -26,7 +26,7 @@ public class LoginTest extends BaseClass
 			
 			String pwd=Excelutils.getCellValString(xl,Sheet,i,1);
 			System.out.println("Password="+pwd);
-//			ob.log();
+
 			ob.values(Username, pwd);
 			ob.click();
 			String expurl="https://www.nilkamalfurniture.com/account";
